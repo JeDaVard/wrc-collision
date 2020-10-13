@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="215px" height="135px" viewBox="0 0 215 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_selected" transform="translate(-147.000000, 0.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(149.000000, 0.000000)">
+                <path d="M181,51 C183.539293,51 185.710157,52.5774299 186.586136,54.8058326 C190.86216,55.5378646 193,56.2689323 193,57 C193,57.7310677 190.86216,58.4621354 186.58648,59.1932031 C185.710157,61.4225701 183.539293,63 181,63 C177.686292,63 175,60.3137085 175,57 C175,53.6862915 177.686292,51 181,51 Z" id="Combined-Shape"></path>
+                <text id="WR" font-family="MotorcrossProTrack" font-size="90" font-weight="normal" letter-spacing="5.23255814">
+                    <tspan x="0" y="89">WR</tspan>
+                </text>
+                <text id="COLLISION" font-family="AvenirNextLTPro-Bold, Avenir Next LT Pro" font-size="36" font-weight="bold">
+                    <tspan x="4" y="122">COLLISION</tspan>
+                </text>
+                <text id="C" font-family="MotorcrossProTrack" font-size="92" font-weight="normal" letter-spacing="-5.87234043">
+                    <tspan x="145" y="91">C</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
