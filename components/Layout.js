@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 
 export default function Layout({ children, header, footer }) {
     return (
@@ -18,13 +20,13 @@ export default function Layout({ children, header, footer }) {
                 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
             </Head>
             <header>
-                {header}
+                <Header />
             </header>
             <main>
                 {children}
             </main>
             <footer>
-                {footer}
+                <Footer />
             </footer>
         </div>
     )

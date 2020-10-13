@@ -22,13 +22,13 @@ export default function Header() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink href={'/a'} activeClassName={c.activeClassName}>
-                                    <a className={c.navLink} href="/">Service</a>
+                                <NavLink href={'/service'} activeClassName={c.activeClassName}>
+                                    <a className={c.navLink} href="/service">Service</a>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink href={'/b'} activeClassName={c.activeClassName}>
-                                    <a className={c.navLink} href="/">About</a>
+                                <NavLink href={'/about'} activeClassName={c.activeClassName}>
+                                    <a className={c.navLink} href="/about">About</a>
                                 </NavLink>
                             </li>
                         </ul>
