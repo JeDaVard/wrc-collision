@@ -9,9 +9,9 @@ export default function Header() {
                 <div className={c.content}>
                     <div className={c.logo}>
                         <Link href="/">
-                            <a href="/">
-                                {/*<div className={c.logoImg}/>*/}
-                                <img src="/wrc_logo_v.svg" alt="logo"/>
+                            <a>
+                                <div className={c.logoImg}/>
+                                {/*<img src="/wrc_logo_v.svg" alt="logo"/>*/}
                             </a>
                         </Link>
                     </div>
