@@ -1,20 +1,10 @@
-import c from './Header.module.css'
+import c from './SmallHeader.module.css'
 import NavLink from "../NavLink/NavLink";
-import Link from "next/link";
 
-export default function Header() {
+export default function SmallHeader() {
     return (
         <div className={c.header}>
-            {/*<div className="row">*/}
                 <div className={c.content}>
-                    <div className={c.logo}>
-                        <Link href="/">
-                            <a>
-                                <div className={c.logoImg}/>
-                                {/*<img src="/wrc_logo_v.svg" alt="logo"/>*/}
-                            </a>
-                        </Link>
-                    </div>
                     <nav className={c.menu}>
                         <ul>
                             <li>
@@ -40,7 +30,6 @@ export default function Header() {
                         </ul>
                     </nav>
                 </div>
-            {/*</div>*/}
         </div>
     )
 }

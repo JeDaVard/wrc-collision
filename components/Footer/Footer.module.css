@@ -3,11 +3,44 @@
     color: white;
     font-size: 1.6rem;
 }
-
 .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    padding-bottom: 4rem;
+    width: 50%;
+    margin-top: 2rem;
+}
+.about h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.about h2 b {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contact {
+    margin-top: 2rem;
+}
+.contact h3 {
+    font-size: 1.6rem;
+}
+
+.left {
     text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255,.06);
     padding: 6rem;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255,.06);
 }
 
 .bottom {
@@ -16,4 +49,14 @@
     justify-content: space-between;
     padding: 2rem;
     color: rgba(255, 255, 255, .5);
+}
+
+
+@media (max-width: 744px) {
+    .top {
+        flex-direction: column;
+    }
+    .about {
+        width: 100%;
+    }
 }

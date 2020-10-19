@@ -1,8 +1,23 @@
 import Head from 'next/head'
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
+import {useEffect, useState} from "react";
+import SmallHeader from "./SmallHeader/SmallHeader";
 
 export default function Layout({ children, header, footer }) {
+    const [smallHeader, setSmallHeader] = useState(false)
+
+    const scrollHandler = e => {
+        if (window.scrollY > 116 && !smallHeader) {
+            setSmallHeader(true)
+        } else if (window.scrollY < 116 && smallHeader) {
+            setSmallHeader(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll',scrollHandler)
+    })
     return (
         <div>
             <Head>
@@ -21,8 +36,9 @@ export default function Layout({ children, header, footer }) {
             </Head>
             <header>
                 <Header />
+                {smallHeader && <SmallHeader />}
             </header>
-            <main>
+            <main style={{minHeight: 'calc(100vh - 41rem)'}}>
                 {children}
             </main>
             <footer>

@@ -1,0 +1,78 @@
+.service {
+    padding: 4rem 0;
+    background: #252525;
+}
+
+.highLights {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+    margin-left: 1.6rem;
+    justify-content: flex-start;
+}
+
+.highLights h2 {
+    width: 33.333%;
+    position: relative;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+}
+
+.highLights h2:before {
+    content: '';
+    height: 2px;
+    width: 10px;
+    background: #efc426;
+    position: absolute;
+    top: 50%;
+    left: -1rem;
+    border-radius: 2px;
+    transform: translateX(-50%);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+
+}
+
+.title h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.services {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.services h2 {
+    font-size: 1.5rem;
+    background: rgba(0,0,0,.1);
+    color: rgba(255, 255, 255, .86);
+    padding: .6rem 1.2rem;
+    display: inline-block;
+    margin: .4rem 0;
+    font-weight: 900;
+    cursor: default;
+}
+
+.services h2:hover,
+.services h2:active {
+    background: rgba(0,0,0,.3);
+    color: white;
+}
+
+@media (max-width: 860px) {
+    .highLights h2 {
+        width: 100%;
+    }
+}

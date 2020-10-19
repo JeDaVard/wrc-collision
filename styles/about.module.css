@@ -1,0 +1,13 @@
+.about {
+    padding: 4rem 0;
+    background: #252525;
+}
+
+.about h2 {
+    font-size: 1.8rem;
+}
+
+.about h2 b {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
