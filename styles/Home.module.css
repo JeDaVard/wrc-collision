@@ -24,18 +24,23 @@
 @keyframes loadAnim {
     0% {
         background: #292927;
+        border: 4px solid #a08888;
     }
     25% {
         background: #a08888;
+        border: 4px solid #292927;
     }
     50% {
         background: #292927;
+        border: 4px solid #a79b7a;
     }
     75% {
         background: #a79b7a;
+        border: 4px solid #292927;
     }
     100% {
         background: #292927;
+        border: 4px solid #a79b7a;
     }
 }
 
