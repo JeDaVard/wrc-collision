@@ -51,11 +51,15 @@
 }
 
 .section {
-    height: 27vh;
+    height: 28vh;
     background: black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section img {
+    width: 48rem;
 }
 
 @media (max-width: 900px) {

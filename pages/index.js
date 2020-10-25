@@ -33,7 +33,7 @@ export default function Home() {
             </div>
         </div>
         <div className={c.section}>
-            <img src="/wrc_logo_h_gold.svg" alt=""/>
+            <img src="/logo_gold.png" alt=""/>
         </div>
         <div className={c.main}>
             <Slider data={sliderImages} auto/>
