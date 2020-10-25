@@ -14,7 +14,6 @@ const refresh = <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" st
 
 
 export function Slider(props) {
-
     const { data, options } = props
     const ref = useRef(null)
 
@@ -31,17 +30,12 @@ export function Slider(props) {
 
         // console.log(ref.current.scrollWidth, ref.current.scrollLeft, ref.current.clientWidth)
         ref.current.addEventListener('scroll', setActiveItem)
-
-        return () => {
-            ref.current.removeEventListener('scroll', setActiveItem)
-        }
+        return () => { ref.current.removeEventListener('scroll', setActiveItem) }
     }, [setActiveItem])
 
     useEffect(() => {
         window.addEventListener('resize', resizeHandler)
-        return () => {
-            window.removeEventListener('resize', resizeHandler)
-        }
+        return () => { window.removeEventListener('resize', resizeHandler) }
     }, [resizeHandler])
 
     function resizeHandler() {
@@ -76,7 +70,6 @@ export function Slider(props) {
         const currentItem = +((ref.current.scrollLeft) / ref.current.clientWidth).toFixed()
 
         if (currentItem !== state.active) {
-            // const doTranslate = state.active >= 2 && state.active <= data.length - 1 - 2
             const nextPoint = currentItem > 2 && currentItem <= data.length - 1 - 2 && currentItem > state.active
             const previousPoint = currentItem >= 2 && currentItem < data.length - 1 - 2 && currentItem < state.active
             const transformTranslate =
@@ -103,7 +96,11 @@ export function Slider(props) {
             <div className={c.content} ref={ref}>
                 {data.map((item, index) => (
                     <div key={index} className={c.item}>
-                        <img src={item} className={c.image} loading="lazy" alt=""/>
+                        <img
+                            src={item}
+                            className={c.image}
+                            // loading="lazy"
+                            alt=""/>
                         <div className={c.navigation}>
                             <div onClick={() => toHandler('previous')} />
                             <div onClick={() => toHandler('next')} />

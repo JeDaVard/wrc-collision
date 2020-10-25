@@ -18,6 +18,23 @@ const sliderImages = [
 export default function Home() {
   return (
     <Layout>
+        <div className={c.videoSection}>
+            <div className={c.video}>
+                <video src="/vid/1.mp4" muted playsInline autoPlay loop/>
+            </div>
+            <div className={c.video}>
+                <video src="/vid/4.mp4" muted playsInline autoPlay loop/>
+            </div>
+            <div className={c.video}>
+                <video src="/vid/3.mp4" muted playsInline autoPlay loop/>
+            </div>
+            <div className={c.video}>
+                <video src="/vid/2.mp4" muted playsInline autoPlay loop/>
+            </div>
+        </div>
+        <div className={c.section}>
+            <img src="/wrc_logo_h_gold.svg" alt=""/>
+        </div>
         <div className={c.main}>
             <Slider data={sliderImages} auto/>
         </div>
