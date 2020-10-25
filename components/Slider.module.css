@@ -97,15 +97,33 @@
     padding: 0 calc(1rem + 3%)
 }
 
+/*.arrowButton {*/
+/*    pointer-events: all;*/
+/*    background: white;*/
+/*    width: 3rem;*/
+/*    height: 3rem;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-radius: 50%;*/
+/*    cursor: pointer;*/
+/*    box-shadow: 0 2px 4px rgba(0,0,0,.2);*/
+/*    opacity: .8;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    transition: all .2s;*/
+/*    animation: buttonAnim .4s;*/
+/*}*/
+
 .arrowButton {
     pointer-events: all;
-    background: white;
+    background: black;
     width: 3rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 1px;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0,0,0,.2);
     opacity: .8;
@@ -162,7 +180,8 @@
 .point {
     margin-right: .3rem;
     margin-left: .3rem;
-    background: white;
+    background: black;
+    border: 1px solid #efc426;
     width: .8rem;
     min-width: .8rem;
     height: .8rem;
