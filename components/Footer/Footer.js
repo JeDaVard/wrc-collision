@@ -13,10 +13,13 @@ export default function Footer() {
                         </div>
                         <div className={c.contact}>
                             <h3>
-                                Phone: +1 818-765-8500
+                                Phone: <a href = "tel: +1 818-765-8500">+1 818-765-8500</a>
                             </h3>
                             <h3>
-                                6926 Lankershim Blvd Los Angeles, CA 91605
+                                E-mail: <a href = "mailto: team@wrccollision.com">team@wrccollision.com</a>
+                            </h3>
+                            <h3>
+                                <a href="https://goo.gl/maps/dTnSKYK23BL4c3KN9" target="_blank" rel="noreferrer noopener">6926 Lankershim Blvd Los Angeles, CA 91605</a>
                             </h3>
                         </div>
                     </div>

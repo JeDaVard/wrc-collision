@@ -30,3 +30,16 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+a {
+  color: rgba(255, 255, 255, .76);
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  transition: all .2s;
+}
+
+a:hover,
+a:active {
+  color: #efc426;
+}
