@@ -1,9 +1,16 @@
 import Layout from "../components/Layout";
 import c from '../styles/contact.module.css'
+import Head from "next/head";
 
 export default function Contact() {
     return (
         <Layout>
+            <Head>
+                <title>Contacts</title>
+                <meta key="description" name="description" content="Contacts - Here at WRC LA, we strive to insure quality and craftsmanship to our valued line of clientele" />
+                <meta key="og:title" property="og:title" content="Contacts" />
+                <meta key="og:description" property="og:description" content="Contacts - Here at WRC LA, we strive to insure quality and craftsmanship to our valued line of clientele" />
+            </Head>
             <div className="row">
                 <div className={c.contact}>
                     <h2>

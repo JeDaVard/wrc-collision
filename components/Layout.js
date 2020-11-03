@@ -25,13 +25,13 @@ export default function Layout({ children, header, footer }) {
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#ffffff" />
-                <meta key="description" name="description" content="WRC collision" />
-                <meta key="keywords" name="keywords" content="WRC collision, WRC, collision" />
-                <meta key="og:title" property="og:title" content="WRC collision" />
-                <meta key="og:description" property="og:description" content="WRC collision" />
-                <meta key="og:type" property="og:type" content="website" />
-                <meta property="og:site_name" content="WRC collision"/>
                 <meta name="robots" content="index, follow" />
+                <meta property="og:site_name" content="WRC collision"/>
+                <meta key="og:type" property="og:type" content="website" />
+                <meta key="keywords" name="keywords" content="WRC collision, WRC, collision, Free Estimates, Pickup, Drop Off, Promotional Financing, Free Rental Cars, Free Towing, Roadside Assistance, Lifetime Warranty, AUTO BODY PAINT, certified technicians, Aluminum Repair, Glass Replacement, Diagnostics, Calibration, Clear Bra’s, Custom Decal’s, Blackout Package’s, Powder Coating, EZ Liner Frame Machine" />
+                <meta key="description" name="description" content="Here at WRC LA, we strive to insure quality and craftsmanship to our valued line of clientele" />
+                <meta key="og:title" property="og:title" content="WRC collision" />
+                <meta key="og:description" property="og:description" content="Here at WRC LA we strive to insure quality and craftsmanship to our valued line of clientele." />
                 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
             </Head>
             <header>
