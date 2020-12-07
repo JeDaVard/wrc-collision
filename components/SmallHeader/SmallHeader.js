@@ -13,8 +13,8 @@ export default function SmallHeader() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink href={'/service'} activeClassName={c.activeClassName}>
-                                    <a className={c.navLink} href="/service">Service</a>
+                                <NavLink href={'/services'} activeClassName={c.activeClassName}>
+                                    <a className={c.navLink} href="/services">Service</a>
                                 </NavLink>
                             </li>
                             <li>
